@@ -5,7 +5,7 @@
 For this project, I extracted the HTML tables from separate articles in the timeshighereducation.com website. Since Brazil started to appear in this ranking (2018), I tracked down each publication that contained the results (below) and copied it into an Excel spreadsheet. I plan to automatize the raw data collection step soon.
 
 - 2018 results: https://www.timeshighereducation.com/world-university-rankings/young-university-rankings-2018-golden-age-results-out-now
-- 2019 results: https://www.timeshighereducation.com/student/best-universities/best-golden-age-universities
+- 2019 results: https://www.timeshighereducation.com/cn/world-university-rankings/young-university-rankings-2019-golden-age-results-out-now
 - 2020 results: https://www.timeshighereducation.com/world-university-rankings/young-university-rankings-2020-golden-age-results-out-now
 
 The process is streamlined into three phases: data preparation (01_gera_dados.R), data visualization in the federal sphere (02_graficos_federais.R) and data visualization of all ranked Brazilian universities (03_graficos_nacional.R). For better control of the workflow, all these steps were grouped in a single script (00_executa_analise.R).
